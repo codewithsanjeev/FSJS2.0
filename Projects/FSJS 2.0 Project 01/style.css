@@ -1,0 +1,72 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+}
+
+div.container {
+  display: grid;
+}
+
+/* Navbar */
+
+.navbar-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: center;
+  padding: 1% 5%;
+}
+
+.navbar-container .grow-list .list {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-container .grow-list .list li {
+  margin: 0% 2%;
+}
+
+.navbar-container .grow-list .list li:first-child {
+  color: #7475da;
+}
+
+.navbar-container .button-group .nav-button {
+  padding: 5% 10%;
+  background: #7475da;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Banner */
+
+.banner-container {
+  display: flex;
+  padding: 0% 5%;
+  align-items: center;
+}
+
+.banner-container .heading-text {
+  font-size: 60px;
+}
+
+.banner-container .heading-text span {
+  color: #7475da;
+}
+
+button.nav-button.btn {
+  margin-top: 10px;
+  padding: 5% 10%;
+  background: #7475da;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
