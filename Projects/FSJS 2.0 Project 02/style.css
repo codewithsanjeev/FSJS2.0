@@ -1,2 +1,53 @@
 /* You can not modify anything in the HTML */
 /* You can only modify the CSS file */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+}
+/* Navbar */
+.navbar {
+  height: 12vh;
+  background: #000000;
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr 1fr;
+  align-items: center;
+  padding: 0% 5%;
+}
+
+div.line {
+  width: 20px;
+  border-right: 2px solid #fff;
+}
+
+div.grow-list .list {
+  display: flex;
+  list-style: none;
+}
+
+div.grow-list .list li {
+  margin: 0% 2%;
+  color: #ffffff;
+}
+
+button.button-small {
+  padding: 2% 5%;
+}
+
+/* Hero Section */
+div.hero {
+  background: url(./assets/bg.png) no-repeat center center;
+  background-size: cover;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
