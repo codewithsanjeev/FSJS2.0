@@ -9,77 +9,87 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="m-0 p-0 box-border">
     <!-- Header Section -->
-    <header class="bg-[#2c2c32]">
-        <div class="">
-            <img src="./images/vscode-logo.png" alt="" srcset=""><span>Visual Studio Code</span>
-        </div>
+    <header class="bg-[#2c2c32] ">
+        <section class="max-w-screen-xl flex flex-row place-content-between">
+            <section class="flex flex-row items-center gap-6">
 
-        <!-- Navbar -->
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li><a href="#">Docs</a></li>
-                <li><a href="#">Updates</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">API</a></li>
-                <li><a href="#">Extensions</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">LEARN</a></li>
-            </ul>
-        </nav>
+                <div class="flex flex-row items-center gap-2">
+                    <img src="./images/vscode-logo.png" alt="" class="w-8">
+                    <span class="text-white text-[1.2rem] text-light">
+                        Visual Studio Code
+                    </span>
+                </div>
 
-        <!-- Search Section -->
-        <div class="">
-            <img src="./images/search_dark.svg" alt="search" />
-            <input type="text" name="search" placeholder="Search Docs">
-        </div>
+                <!-- Navbar -->
+                <nav class="navbar ">
+                    <ul class="nav-list text-gray-400 flex flex-column sm:flex-row items-center gap-5">
+                        <li class="hover:text-white"><a href="#">Docs</a></li>
+                        <li class="hover:text-white"><a href="#">Updates</a></li>
+                        <li class="hover:text-white"><a href="#">Blog</a></li>
+                        <li class="hover:text-white"><a href="#">API</a></li>
+                        <li class="hover:text-white"><a href="#">Extensions</a></li>
+                        <li class="hover:text-white"><a href="#">FAQ</a></li>
+                        <li class="hover:text-white"><a href="#">Learn</a></li>
+                    </ul>
+                </nav>
+            </section>
 
-        <!-- Download Button -->
-        <button>
-            <img src="./images/download_dark.svg" alt="Download">
-            Download
-        </button>
+            <section class="flex flex-row">
+                <!-- Search Section -->
+                <div class="flex flex-row items-center bg-white">
+                    <img src="./images/search_dark.svg" alt="search" class="w-4 ml-4 mr-4" />
+                    <input type="text" name="search" placeholder="Search Docs">
+                </div>
+
+                <!-- Download Button -->
+                <button class="flex flex-row items-center bg-blue-500 text-white p-4">
+                    <img src="./images/download.svg" alt="Download" class="w-4">
+                    Download
+                </button>
+            </section>
+        </section>
     </header>
 
     <!-- Latest release strip -->
-    <div class="bg-[#25252a] text-white text-center">
-        <span class="bg-blue-500"><a href="#">Version 1.73</a></span>is now available! Read about the new features and
-        fixes from October.
+    <div class="bg-[#25252a] text-white text-center pt-2 pb-2">
+        <span class="text-blue-500"><a href="#">Version 1.73</a></span> is now available! Read about the new features
+        and fixes from October.
     </div>
 
     <!-- Hero Section -->
     <main class="bg-[#2c2c32]">
         <!-- Main hero content -->
-        <section aria-label="main-content" class="flex flex-column sm:flex-row">
+        <section aria-label="main-content" class="flex flex-column sm:flex-row items-center">
 
             <!-- Left Side Content -->
-            <section class="">
-                <h1>
+            <section class="w-1/3 items-center justify-center text-center">
+                <h1 class="text-[3rem] text-white font-light">
                     Code editing.
                     <strong>Redefined.</strong>
                 </h1>
-                <div>Free. Built on open source. Runs everywhere.</div>
-                <button>
-                    <div>
+                <div class="text-gray-200">Free. Built on open source. Runs everywhere.</div>
+                <button class="inline-flex flex-row gap-2 justify-center items-center bg-blue-500 p-2 mt-2 mb-2">
+                    <div class="text-white">
                         <h3>Download Mac Universal</h3>
                         <p>Stable Build</p>
                     </div>
-                    <img src="./images/chevronDown.svg" alt="Download Down Arrow" />
+                    <img src="./images/chevronDown.svg" alt="Download Down Arrow" class="w-8" />
                 </button>
 
-                <div>
+                <div class="text-gray-200">
                     <a href="#">Web</a>, <a href="#">Insiders edition</a>, or <a href="#">other platforms</a>
                 </div>
 
-                <div>
+                <div class="text-gray-200">
                     <p>By using VS Code, you agree to its</p>
                     <p><a href="#">license and privacy statement.</a></p>
                 </div>
             </section>
 
             <!-- right side content -->
-            <section class="">
+            <section class="w-2/3">
                 <img src="./images/home-screenshot-mac-lg-2x.png" alt="Macbook VS Code Screenshot" />
             </section>
 
@@ -87,28 +97,28 @@
 
         <!-- Features Row -->
 
-        <section class="flex flex-row">
+        <section class="flex flex-row place-content-around items-center bg-gray-200 pt-8 pb-8">
             <!-- Boxes -->
-            <section class="">
-                <img src="./images/home-intellisense.svg" alt="Intellisense">
-                Intellisense
+            <section class="flex flex-col items-center">
+                <img src="./images/intellisense.png" alt="Intellisense" class="w-24 justify-center">
+                <h3 class="text-[1.75rem]">Intellisense</h3>
             </section>
-            <section class="">
-                <img src="./images/home-intellisense.svg" alt="Intellisense">
-                Run and Debug
+            <section class="flex flex-col items-center">
+                <img src="./images/run-debug.png" alt="Intellisense" class="w-24">
+                <h3 class="text-[1.75rem]">Run and Debug</h3>
             </section>
-            <section class="">
-                <img src="./images/home-intellisense.svg" alt="Intellisense">
-                Built in Git
+            <section class="flex flex-col items-center">
+                <img src="./images/Git-Icon-Black.png" alt="Intellisense" class="w-24">
+                <h3 class="text-[1.75rem]">Built in Git</h3>
             </section>
-            <section class="">
-                <img src="./images/home-intellisense.svg" alt="Intellisense">
-                Extensions
+            <section class="flex flex-col items-center">
+                <img src="./images/extension-icon.png" alt="Intellisense" class="w-24">
+                <h3 class="text-[1.75rem]">Extensions</h3>
             </section>
         </section>
 
         <!-- User's Review Section -->
-        <section class="">
+        <section class="flex flex-row bg-white ">
             <!-- Single User's Review -->
             <section class="">
                 <img src="#" alt="">
@@ -136,8 +146,10 @@
         </section>
 
         <!-- Two Column Block One-->
-        <section class="">
-            <section> <img src="" alt=""> </section>
+        <section class="flex flex-row bg-white items-center">
+            <section>
+                <img src="./images/home-intellisense.svg" alt="">
+            </section>
             <section>
                 <h2>
                     Meet IntelliSense.
@@ -152,7 +164,7 @@
 
 
         <!-- Two Column Block Two-->
-        <section class="">
+        <section class="flex flex-row bg-gray-200 items-center">
 
             <section>
                 <h2>
@@ -165,12 +177,16 @@
                 </p>
             </section>
 
-            <section> <img src="" alt=""> </section>
+            <section>
+                <img src="./images/home-debug.svg" alt="">
+            </section>
         </section>
 
         <!-- Two Column Block Three-->
-        <section class="">
-            <section> <img src="" alt=""> </section>
+        <section class="flex flex-row bg-white items-center">
+            <section>
+                <img src="./images/home-git.svg" alt="">
+            </section>
             <section>
                 <h2>
                     Git commands built-in.
@@ -184,7 +200,7 @@
         </section>
 
         <!-- Two Column Block Four-->
-        <section class="">
+        <section class="flex flex-row bg-gray-200 items-center">
 
             <section>
                 <h2>
@@ -199,12 +215,16 @@
                 </p>
             </section>
 
-            <section> <img src="" alt=""> </section>
+            <section>
+                <img src="./images/Hundreds-of-Extensions.png" alt="">
+            </section>
         </section>
 
         <!-- Two Column Block five-->
-        <section class="">
-            <section> <img src="" alt=""> </section>
+        <section class="flex flex-row bg-white items-center">
+            <section>
+                <img src="./images/home-azure.svg" alt="">
+            </section>
             <section>
                 <h2>
                     Deploy with confidence and ease
@@ -219,10 +239,10 @@
         </section>
 
         <!-- Vs Code Language Support -->
-        <section class="">
-            <h2>VS Code for
+        <section class="flex flex-col bg-gray-200 items-center">
+            <h2 class="text-[3rem]">VS Code for
             </h2>
-            <section class="">
+            <section class="flex flex-row">
                 <section class=""><img src="" alt=""><span>JavaScript</span></section>
                 <section class=""><img src="" alt=""><span>Python</span></section>
                 <section class=""><img src="" alt=""><span>Java</span></section>
@@ -241,7 +261,7 @@
         </section>
 
         <!-- Download VS Code for Various OS -->
-        <section class="">
+        <section class="bg-white flex flex-row items-center place-content-around">
 
             <!-- Windows Installer Area -->
             <section class="" aria-label="Windows Download Area">
@@ -258,7 +278,7 @@
                 </section>
 
                 <section class="" aria-label="Installer-area">
-                    <section aria-label="User Installer">
+                    <section aria-label="User Installer" class="flex flex-row gap-5">
                         <p>User Installer</p>
                         <section>
                             <a href="#">x64</a>
@@ -267,7 +287,7 @@
                         </section>
                     </section>
 
-                    <section aria-label="System Installer">
+                    <section aria-label="System Installer" class="flex flex-row gap-5">
                         <p>System Installer</p>
                         <section>
                             <a href="#">x64</a>
@@ -276,7 +296,7 @@
                         </section>
                     </section>
 
-                    <section aria-label="zip Installer">
+                    <section aria-label="zip Installer" class="flex flex-row gap-5">
                         <p>.zip</p>
                         <section>
                             <a href="#">x64</a>
@@ -313,7 +333,7 @@
                 </section>
 
                 <section class="" aria-label="Installer-area">
-                    <section aria-label="deb Installer">
+                    <section aria-label="deb Installer" class="flex flex-row gap-5">
                         <p>.deb</p>
                         <section>
                             <a href="#">x64</a>
@@ -322,7 +342,7 @@
                         </section>
                     </section>
 
-                    <section aria-label="rpm Installer">
+                    <section aria-label="rpm Installer" class="flex flex-row gap-5">
                         <p>rpm</p>
                         <section>
                             <a href="#">x64</a>
@@ -331,7 +351,7 @@
                         </section>
                     </section>
 
-                    <section aria-label="targz Installer">
+                    <section aria-label="targz Installer" class="flex flex-row gap-5">
                         <p>.tar.gz</p>
                         <section>
                             <a href="#">x64</a>
@@ -341,7 +361,7 @@
                     </section>
 
 
-                    <section aria-label="snap Installer">
+                    <section aria-label="snap Installer" class="flex flex-row gap-5">
                         <p>Snap</p>
                         <section>
                             <a href="#">Snap Store</a>
@@ -358,8 +378,8 @@
                 <section class="" aria-label="mac-logo-image">
                     <img src="#" alt="">
                     <section class="" aria-label="mac-download">
-                        <button class="">
-                            <img src="#" alt="" class="">
+                        <button class="text-center">
+                            <img src=" #" alt="" class="">
                             Mac
                         </button>
                         <p class="text-center">macOS 10.11+</p>
@@ -369,7 +389,7 @@
 
                 <section class="" aria-label="Installer-area">
 
-                    <section aria-label="zip Installer">
+                    <section aria-label="zip Installer" class="flex flex-row">
                         <p>.zip</p>
                         <section>
                             <a href="#">Universal</a>
@@ -384,14 +404,14 @@
         </section>
 
         <!-- Another Two column layout -->
-        <section class="">
+        <section class="bg-gray-200 text-center">
             <!-- Two Columns -->
-            <section class="">
-                <section class="">
+            <section class="flex flex-row place-content-around">
+                <section class="w-1/2">
                     <h2 class="">Want new features sooner?</h2>
                     <p>Get the <a class="" href="#">Insiders build</a> instead.</p>
                 </section>
-                <section class="">
+                <section class="w-1/2">
                     <h2 class="">Use <a href="#" class="">vscode.dev</a> for quick edits online!</h2>
                     <p>GitHub, Azure Repos, and local files.</p>
                 </section>
@@ -410,20 +430,21 @@
         </section>
     </main>
 
-    <footer>
-        <section class="">
+    <footer class="flex sm:flex-row place-content-between bg-[#2c2c32] text-white">
+        <section class="flex sm:flex-row">
             <p>Hello from Seattle.</p>
-            <p>Follow <a href="#" class="">@code</a></p>
-            <span class="github-btn github-stargazers" id="github-btn"><a class="gh-btn" id="gh-btn"
-                    href="https://github.com/Microsoft/vscode/" target="_blank" aria-label="Star on GitHub"><span
-                        class="gh-ico" aria-hidden="true"></span> <span class="gh-text" id="gh-text">Star</span></a> <a
-                    class="gh-count" id="gh-count" href="https://github.com/Microsoft/vscode/stargazers" target="_blank"
-                    aria-label="139,693 stargazers on GitHub" style="display: block;">139,693</a></span>
+            <p>Follow <a href="#" class="">@code</a> <span class="github-btn github-stargazers" id="github-btn"><a
+                        class="gh-btn" id="gh-btn" href="https://github.com/Microsoft/vscode/" target="_blank"
+                        aria-label="Star on GitHub"><span class="gh-ico" aria-hidden="true"></span> <span
+                            class="gh-text" id="gh-text">Star</span></a> <a class="gh-count" id="gh-count"
+                        href="https://github.com/Microsoft/vscode/stargazers" target="_blank"
+                        aria-label="139,693 stargazers on GitHub" style="display: block;">139,693</a></span></p>
+
         </section>
 
-        <section class="">
+        <section class="flex sm:flex-row">
             <section class="">
-                <ul class="">
+                <ul class="flex sm:flex-row space-4">
                     <li class=""><a href="#">Support</a></li>
                     <li class=""><a href="">Privacy</a></li>
                     <li class=""><a href="">Terms of Use</a></li>
