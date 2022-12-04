@@ -12,7 +12,7 @@
 <body class="m-0 p-0 box-border">
     <!-- Header Section -->
     <header class="bg-[#2c2c32] ">
-        <section class="max-w-screen-xl flex flex-row place-content-between">
+        <section class="max-w-screen-xl m-auto flex flex-row place-content-between">
             <section class="flex flex-row items-center gap-6">
 
                 <div class="flex flex-row items-center gap-2">
@@ -54,28 +54,32 @@
 
     <!-- Latest release strip -->
     <div class="bg-[#25252a] text-white text-center pt-2 pb-2">
-        <span class="text-blue-500"><a href="#">Version 1.73</a></span> is now available! Read about the new features
+        <span class="max-w-screen-xl m-auto text-blue-500"><a href="#">Version 1.73</a></span> is now available! Read
+        about
+        the new features
         and fixes from October.
     </div>
 
     <!-- Hero Section -->
     <main class="bg-[#2c2c32]">
         <!-- Main hero content -->
-        <section aria-label="main-content" class="flex flex-column sm:flex-row items-center">
+        <section aria-label="main-content"
+            class="max-w-screen-xl m-auto flex flex-col sm:flex-row place-content-around pt-8 pb-8">
 
             <!-- Left Side Content -->
-            <section class="w-1/3 items-center justify-center text-center">
+            <section class="w-1/3 items-center justify-center text-center pt-8">
                 <h1 class="text-[3rem] text-white font-light">
                     Code editing.
                     <strong>Redefined.</strong>
                 </h1>
-                <div class="text-gray-200">Free. Built on open source. Runs everywhere.</div>
+                <div class="text-gray-400">Free. Built on open source. Runs everywhere.</div>
                 <button class="inline-flex flex-row gap-2 justify-center items-center bg-blue-500 p-2 mt-2 mb-2">
                     <div class="text-white">
-                        <h3>Download Mac Universal</h3>
-                        <p>Stable Build</p>
+                        <h3 class=" font-bold">Download Mac Universal</h3>
+                        <p class="text-sm">Stable Build</p>
                     </div>
-                    <img src="./images/chevronDown.svg" alt="Download Down Arrow" class="w-8" />
+                    <img src="./images/chevronDown.svg" alt="Download Down Arrow"
+                        class="pl-2 pr-2 border-l-4 border-[#2c2c32] w-4 " />
                 </button>
 
                 <div class="text-gray-200">
@@ -118,31 +122,37 @@
         </section>
 
         <!-- User's Review Section -->
-        <section class="flex flex-row bg-white ">
-            <!-- Single User's Review -->
-            <section class="">
-                <img src="#" alt="">
-                <strong>Una Kravets</strong><span>@una</span>
-                <p>VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace /
-                    user preferences is
-                    no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+        <section class="bg-white m-auto">
+            <section class="max-w-screen-xl flex flex-col sm:flex-row gap-10">
+                <!-- Single User's Review -->
+                <section class="">
+                    <img src="#" alt="">
+                    <strong>Una Kravets</strong><span>@una</span>
+                    <p>VS @code does so many things right. I’m constantly impressed by the UX, and customizing
+                        workspace/
+                        user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+                </section>
+
+                <section class="">
+                    <img src="#" alt="">
+                    <strong>Jonathan Dunlap</strong><span>@jadbox</span>
+                    <p>VS Code will have deep remote development. You can connect to a container running a different OS
+                        and
+                        use any VS Code
+                        plugins, linting, debugging for that environment. 🔥🔥🔥</p>
+                </section>
+
+                <section class="">
+                    <img src="#" alt="">
+                    <strong>Pavithra Kodmad</strong><span>@PKodmad</span>
+                    <p>VS Code is my most used and favorite editor. I love being able to customize the editor - changing
+                        the
+                        layout, the icons,
+                        fonts and color scheme is so easy!</p>
+                </section>
+
             </section>
 
-            <section class="">
-                <img src="#" alt="">
-                <strong>Jonathan Dunlap</strong><span>@jadbox</span>
-                <p>VS Code will have deep remote development. You can connect to a container running a different OS and
-                    use any VS Code
-                    plugins, linting, debugging for that environment. 🔥🔥🔥</p>
-            </section>
-
-            <section class="">
-                <img src="#" alt="">
-                <strong>Pavithra Kodmad</strong><span>@PKodmad</span>
-                <p>VS Code is my most used and favorite editor. I love being able to customize the editor - changing the
-                    layout, the icons,
-                    fonts and color scheme is so easy!</p>
-            </section>
         </section>
 
         <!-- Two Column Block One-->
