@@ -1,2 +1,52 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron";
+}
+
+/* Navigation Bar */
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div ul.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+div ul.list li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content Container */
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-container .sqaure {
+  position: absolute;
+}
+
+.hero-container .star {
+  position: absolute;
+}
+
+.hero-container .globe {
+  position: absolute;
+}
