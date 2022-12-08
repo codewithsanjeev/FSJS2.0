@@ -8,11 +8,18 @@
   font-family: "Orbitron";
 }
 
+body {
+  max-width: 1280px;
+  margin: auto;
+}
+
 /* Navigation Bar */
 .navbar-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 div ul.list {
@@ -25,22 +32,44 @@ div ul.list {
 div ul.list li {
   margin-left: 20px;
   margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div ul.list li:first-child {
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 4px solid;
 }
 
 div.button-group {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+}
+
+.search-icon svg {
+  width: 20px;
+}
+
+.nav-button {
+  padding: 10% 15%;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
 }
 
 /* Content Container */
 .hero-container {
   display: flex;
   justify-content: space-around;
+  padding-top: 50px;
 }
 
 .hero-container .sqaure {
   position: absolute;
+  z-index: 0;
 }
 
 .hero-container .star {
@@ -49,4 +78,10 @@ div.button-group {
 
 .hero-container .globe {
   position: absolute;
+}
+
+.hero-container div img {
+  position: absolute;
+  width: 350px;
+  z-index: 1;
 }
