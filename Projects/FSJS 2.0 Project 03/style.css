@@ -1,6 +1,6 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
-
+/* Checking some pulls commands in Git */
 * {
   margin: 0;
   padding: 0;
@@ -85,3 +85,5 @@ div.button-group {
   width: 350px;
   z-index: 1;
 }
+
+
