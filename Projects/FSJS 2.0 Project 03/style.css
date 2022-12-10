@@ -120,6 +120,7 @@ span.square img {
 }
 
 div.hero-container-right div:nth-child(2) {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -129,6 +130,7 @@ div.hero-container-right div:nth-child(2) {
 div.hero-container-right div div.icons {
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
 
 div.icons span img {
