@@ -1,58 +1,59 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Search */
-    background: #F9F5ED;
+/* As per the rules for the project, i can't add anything in HTML. So I'm including fonts here  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Search */
+  background: #f9f5ed;
+  font-family: "Roboto", sans-serif;
 }
-nav{
-    padding: 20px 10%;
-    height: 15vh;
+nav {
+  padding: 20px 10%;
+  height: 15vh;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 nav ul li {
-    list-style: none;
-    margin-right: 5%;
-    /* gap: 50px; */
-    font-weight: 500;
+  list-style: none;
+  margin-right: 5%;
+  font-weight: 500;
 }
-
 
 /* CSS for HERO Section */
 
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10%;
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
 }
 
-.leftmain{
-    width: 40%;
+.leftmain {
+  width: 40%;
 }
 
-.leftmain h1{
-    font-size: 67px;
+.leftmain h1 {
+  font-size: 67px;
 }
 
-.leftmain p{
-    margin: 5% 0;
+.leftmain p {
+  margin: 5% 0;
 }
 
-.leftmain button{
-    padding: 15px 20px;
-    border: none;
-    background-color: #3b855b;
-    border-radius: 10px;
-    color: white;
-    font-weight: 500;
+.leftmain button {
+  padding: 15px 20px;
+  border: none;
+  background-color: #3b855b;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
 }
 
-.rightmain{
-    width: 60%;
+.rightmain {
+  width: 60%;
 }
