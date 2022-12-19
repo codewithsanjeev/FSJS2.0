@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+/* Common Classes */
+.bg-color {
+  background-color: #151515;
+}
+.text-color {
+  color: #f736ec;
+}
+.text-white {
+  color: #ffffff;
+}
+.mx-auto {
+  margin: auto;
+}
+
+/* Header */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul.navlist {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
