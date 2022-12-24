@@ -86,4 +86,9 @@ section.hero-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  padding-top: 100px;
+  width: 80%;
+}
+.heading-text {
+  font-size: 5em;
 }
