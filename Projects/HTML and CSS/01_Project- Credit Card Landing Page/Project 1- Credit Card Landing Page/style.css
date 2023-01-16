@@ -64,6 +64,7 @@ section.hero-section {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 90vh;
 }
 
 .bg-cards {
@@ -86,9 +87,10 @@ section.hero-section {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 100px;
-  width: 80%;
+  padding-top: 50px;
+  z-index: 999;
 }
 .heading-text {
-  font-size: 5em;
+  font-size: 5.5em;
+  font-weight: normal;
 }
