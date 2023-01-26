@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Dots that Disappears in a Moment</title>
+    <style>
+        * {
+            background: #333333;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .circle {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            position: absolute;
+            border: 2px solid #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        let body = document.querySelector("body");
+
+        body.addEventListener("click", function () {
+            let CDiv = document.createElement("div");
+            console.log("Click Happenend");
+            CDiv.classList.add("circle");
+            body.appendChild(CDiv);
+        });
+
+    </script>
+</body>
+
+</html>
