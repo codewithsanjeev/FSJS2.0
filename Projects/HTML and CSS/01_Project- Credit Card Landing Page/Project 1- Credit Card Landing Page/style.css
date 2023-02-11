@@ -49,7 +49,9 @@ nav ul.navlist li a {
   text-decoration: none;
   color: #ffffff;
 }
-
+nav ul.navlist li a:hover {
+  cursor: pointer;
+}
 .button-group .btn-contact {
   background: none;
   border: none;
