@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.mx-auto {
+  margin: auto;
+}
+.site-width {
+  max-width: 1200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Site Header */
+.site-logo {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.site-header nav {
+  padding: 10px 0px;
+}
+.site-header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.site-header nav ul li a {
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 24px;
+}
+
+/* Site Body */
+.site-body {
+  min-height: 450px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: #fff;
+}
+
+/* Cards */
+.card-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 33.33%;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 8px;
+  gap: 10px;
+
+  background-image: linear-gradient(
+    to left bottom,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  color: #fff;
+}
+
+.card-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+/* Footer */
+.footer-section {
+  background: #333;
+  color: #fff;
+  padding: 10px 0px;
+}
