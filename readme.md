@@ -1,11 +1,17 @@
 # Full Stack Development JavaScript 2.0
 
-### All CSS and HTML Project Finished, Links Addded Below:
+**All CSS and HTML Project Finished, Links Addded Below :**
 
-#### Project 1 - [View Project](https://github.com/codewithsanjeev/FSJS2.0/blob/main/backend/db-design.png) ⇒ "Database Design For e-Commerce Website"
+## Projects - HTML, CSS, React & Complete MERN Projects
 
-## Assignments
+#### Project 1 - [View Project]()
+
+## Regular Assignments
 
 **Assignment 1 -** [React Router Assignment](https://react-router-by-sanjeev.netlify.app/)
 
-**Assignment 2 -** [Database Design For e-Commerce Website ](https://github.com/codewithsanjeev/FSJS2.0/blob/main/backend/db-design.png)
+**Assignment 2 -** [ToDo App Using Redux Toolkit](#)
+
+**Assignment 3 -** [Database Design For e-Commerce Website ](https://github.com/codewithsanjeev/FSJS2.0/blob/main/backend/db-design.png)
+
+**Assignment 4 -** [Database Design For Social Media Website ](https://github.com/codewithsanjeev/FSJS2.0/blob/main/backend/db-design.png)
