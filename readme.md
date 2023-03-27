@@ -2,7 +2,7 @@
 
 **All CSS and HTML Project Finished, Links Addded Below :**
 
-## Projects - HTML, CSS, React & Complete MERN Projects
+## Projects - HTML, CSS, JS, React & Complete MERN Projects
 
 ### Basic Projects
 
@@ -20,6 +20,8 @@
 
 ### HTML & CSS Projects
 
+=> Pending but very soon, the links will be updated.
+
 **Project 1 -** Credit Card Landing Page => [View Project](#)
 
 **Project 2 -** Hosting Site Landing Page => [View Project](#)
@@ -34,7 +36,9 @@
 
 ## Regular Assignments
 
-**Assignment 1 -** [React Router Assignment](https://react-router-by-sanjeev.netlify.app/)
+**JS Assignments -**
+
+**Assignment 1 -** [React Router Assignment](https://react-router-by-sanjeev.netlify.app/) (Done the basic one. More to come in this.)
 
 **Assignment 2 -** [ToDo App Using Redux Toolkit](#)
 
